@@ -112,7 +112,7 @@ export const MoreAboutMe = () => {
                     }}><Link>Download Resume</Link>
                 </Typography>
                 <Box marginLeft={{xs: 5, md: 'unset'}}>
-                    <Grid container direction='row' sx={{marginLeft: 5}}>
+                    <Grid container item direction='row' sx={{marginLeft: 5}}>
                         <Grid item md={6}>
                     <List sx={{lineHeight: .5, fontFamily: 'Roboto Mono, monospace', color: '#4b5156', marginLeft: -5}}>
                         <ListItem>NextJS</ListItem>
@@ -153,8 +153,8 @@ export const MoreAboutMe = () => {
                 fontSize: 20,
             }}>Find my Comedy on my Youtube and Website:</Box>
         <Container sx={{justifyContent: 'center', lineHeight: 3}}>
-            <Box sx={{marginTop: 2}}><Link>Youtube: Shploon</Link></Box>
-            <Box><Link>Website: Twee Bwendan Productions</Link></Box>
+            <Box sx={{marginTop: 2}}><Link href="https://www.youtube.com/channel/UCI838L45k79cZ-ZOeMpFsvg/videos?view=0&sort=p&flow=grid">Youtube: Shploon</Link></Box>
+            <Box><Link href="https://www.youtube.com/channel/UCI838L45k79cZ-ZOeMpFsvg/videos?view=0&sort=p&flow=grid">Website: Twee Bwendan Productions</Link></Box>
         </Container>
         </Grid>
 </Grid>

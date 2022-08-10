@@ -1,0 +1,3 @@
+git add .
+git commit -m "my commit message explaining what I've done"
+git push
