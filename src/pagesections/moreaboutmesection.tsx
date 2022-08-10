@@ -109,7 +109,7 @@ export const MoreAboutMe = () => {
                         marginTop: 0,
                         color: '#4b5156',
                         textAlign: 'center'
-                    }}><Link href="https://www.youtube.com/channel/UCI838L45k79cZ-ZOeMpFsvg/videos?view=0&sort=p&flow=grid">Download Resume</Link>
+                    }}><Link href="https://docs.google.com/document/d/e/2PACX-1vRXHfh5RnF-GXsSJ9ggPmfjqMQcwnTj73aOcObdIF1UsXS2xi3H9cidqx5WOSdQfw/pub">Download Resume</Link>
                 </Box>
                 <Box marginLeft={{xs: 5, md: 'unset'}}>
                     <Grid container item direction='row' sx={{marginLeft: 5}}>
