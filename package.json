@@ -1,0 +1,44 @@
+{
+  "type": "module",
+  "name": "nextjs-with-typescript",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "axios": "^0.27.2",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.2",
+    "next": "latest",
+    "nodemailer": "^6.7.7",
+    "react": "latest",
+    "react-dom": "latest",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.6.4",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/uuid": "^8.3.4",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "^4.7.4"
+  },
+  "description": "## How to use",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
