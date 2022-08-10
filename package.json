@@ -15,6 +15,8 @@
     "@emotion/react": "latest",
     "@emotion/server": "latest",
     "@emotion/styled": "latest",
+    "@google-cloud/appengine-admin": "^2.0.0",
+    "@google-cloud/storage": "^6.3.0",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
     "axios": "^0.27.2",

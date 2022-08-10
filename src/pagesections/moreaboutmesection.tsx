@@ -47,7 +47,7 @@ export const MoreAboutMe = () => {
                     color: '#4b5156',
                     textAlign: 'left'
                 }}>
-                    Software development is what I want to do for the rest of my life, while I chase my dream of being a professional comedian.
+                    Software development is definitely my career choice for the indefinite future, while I continue to work on being a professional comedian.
                 </Box>
                 <hr/>
                 <br/>
@@ -91,7 +91,7 @@ export const MoreAboutMe = () => {
                     Front end developer
                     
                 </Box>
-                <Typography justifyContent={
+                <Box justifyContent={
                     {
                         xs: 'center',
                         md: 'left'
@@ -109,8 +109,8 @@ export const MoreAboutMe = () => {
                         marginTop: 0,
                         color: '#4b5156',
                         textAlign: 'center'
-                    }}><Link>Download Resume</Link>
-                </Typography>
+                    }}><Link href="https://www.youtube.com/channel/UCI838L45k79cZ-ZOeMpFsvg/videos?view=0&sort=p&flow=grid">Download Resume</Link>
+                </Box>
                 <Box marginLeft={{xs: 5, md: 'unset'}}>
                     <Grid container item direction='row' sx={{marginLeft: 5}}>
                         <Grid item md={6}>
