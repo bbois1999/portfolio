@@ -1,5 +1,5 @@
-import dbConnect from '../../../lib/dbConnect'
-import Message from '../../../models/Message'
+import dbConnect from '../../lib/dbConnect'
+import Message from '../../models/Message'
 import { NextApiRequest, NextApiResponse } from 'next'
 
 

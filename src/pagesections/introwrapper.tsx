@@ -26,6 +26,7 @@ export const IntroWrapper = () => {
       >
         <Grid
           container
+          item
           xs={12}
           sx={{
             border: 2,

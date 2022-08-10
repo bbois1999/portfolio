@@ -27,14 +27,19 @@ export const ContactMe = () => {
       const response = await axios.post('/api/contact', data)
 
       console.log(response)
-  
-      alert('message submitted!');
+
+     alert('message submitted!');
+
+      setName('')
+      setSubject('')
+      setEmail('')
+      setMessage('')
     } catch (error) {
       console.log(error)
       throw error
     }
 
-   
+
   };
 
   return (
