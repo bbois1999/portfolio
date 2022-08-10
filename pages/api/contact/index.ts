@@ -19,11 +19,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       break
     case 'POST':
       try {
-        console.log(req.body)
         const message = await Message.create(
           req.body
         ) /* create a new model in the database */
-        console.log(message)
         res.status(201).json({ success: true, data: message })
       } catch (error) {
         res.status(400).json({ success: false })

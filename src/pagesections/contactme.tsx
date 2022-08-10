@@ -23,12 +23,18 @@ export const ContactMe = () => {
       message,
     };
 
+    try {
+      const response = await axios.post('/api/contact', data)
 
-    const response = await axios.post('/api/contact', data)
+      console.log(response)
+  
+      alert('message submitted!');
+    } catch (error) {
+      console.log(error)
+      throw error
+    }
 
-    console.log(response)
-
-    alert('message submitted!');
+   
   };
 
   return (
@@ -177,56 +183,3 @@ export const ContactMe = () => {
     </Container>
   );
 };
-
-{
-  {
-    /*<Box
-          sx={{
-            fontFamily: "Roboto Mono, monospace",
-            color: "#4b5156",
-            marginBottom: -1,
-            marginLeft: 2,
-            textAlign: "left",
-          }}
-        >
-          Subject
-        </Box>
-
-<Box
-sx={{
-  fontFamily: "Roboto Mono, monospace",
-  color: "#4b5156",
-  marginBottom: -1,
-  marginLeft: 2,
-  textAlign: "left",
-}}
->
-Email
-</Box>
-
-<Box
-          sx={{
-            fontFamily: "Roboto Mono, monospace",
-            color: "#4b5156",
-            marginBottom: -1,
-            marginLeft: 2,
-            textAlign: "left",
-          }}
-        >
-          Message
-        </Box>
-
-<Box
-          sx={{
-            fontFamily: "Roboto Mono, monospace",
-            color: "#4b5156",
-            textAlign: "left",
-            marginBottom: -1,
-            marginLeft: 2,
-            marginTop: 1,
-          }}
-        >
-          Name
-            </Box>*/
-  }
-}
