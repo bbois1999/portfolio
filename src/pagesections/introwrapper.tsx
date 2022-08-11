@@ -1,10 +1,20 @@
 import Typography from "@mui/material/Typography";
-import { Box, Container } from "@mui/material";
+import { Box, Button, Container } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
+import { useState } from "react";
 
 
 export const IntroWrapper = () => {
+  
+  const scroll = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight, 
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <Container
       sx={{
@@ -107,13 +117,12 @@ export const IntroWrapper = () => {
             }}
           >
             <Typography
-             
               sx={{
                 fontFamily: "Roboto Mono, monospace",
                 fontSize: 20,
               }}
             >
-              <Link href="/contact" underline="none" color="black">
+              <Link onClick={scroll} underline="none" color="black">
                 Contact
               </Link>
             </Typography>
