@@ -60,7 +60,7 @@ const MyProjects = () => {
                 }}> my lazy reminders for when I don't feel <br/> like googling something again.</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button href="http://96.126.98.115/code-snippets" size='large'>Take a Look!</Button>
+                    <Button href="http://96.126.98.115:3000/code-snippets" size='large'>Take a Look!</Button>
                 </CardActions>
             </Card>
             
