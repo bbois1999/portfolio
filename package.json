@@ -3,10 +3,11 @@
   "name": "nextjs-with-typescript",
   "version": "5.0.0",
   "private": true,
+  
   "scripts": {
-    "dev": "next dev",
+    "dev": "next -p 80",
     "build": "next build",
-    "start": "next start",
+    "start": "node app.js",
     "lint": "next lint",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
   },
@@ -42,5 +43,8 @@
   "main": "next.config.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "16.x.x"
+  }
 }

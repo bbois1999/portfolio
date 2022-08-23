@@ -17,14 +17,28 @@ export const ContactMe = () => {
     console.log("Sending");
 
     let data = {
-      name,
-      subject,
-      email,
-      message,
-    };
+      data: {
+        type: "node--message_box",
+        attributes: {
+          title:"Message",
+          body: {
+            value: message,
+            format: "plain_text"
+          },
+          field_name: name,
+          field_subject: subject,
+          field_email: email
+        },
+      },
+    }
 
     try {
-      const response = await axios.post('/api/contact', data)
+      const response = await axios.post('http://96.126.98.115:8080/jsonapi/node/message_box', data, {
+        headers: {
+          "Content-Type": "application/vnd.api+json",
+        },
+        withCredentials: true
+      })
 
       console.log(response)
 
