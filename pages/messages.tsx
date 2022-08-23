@@ -33,6 +33,7 @@ function removeTags(str: string | null) {
 
 const Messages = () => {
     const [messages, setMessages] = useState<IMessage[]>([])
+    const [user, setUser] = useState(false);
     
     useEffect(() => {
         const getMessages = async () => {
@@ -41,12 +42,31 @@ const Messages = () => {
             setMessages(response.data.data)
         } 
         getMessages()
+
+        const test = () => {
+            try {
+              const data = JSON.parse(
+                localStorage.getItem("user") || "no user in local storage"
+              );
+              //console.log(data.current_user.uid)
+      
+              //console.log(data.current_user.uid === "1");
+              if (data.current_user.uid === "1") {
+                setUser(true);
+              }
+            } catch (error) {
+              console.log(user, "no user log in");
+            }
+          };
+          test();
     }, [])
 
    console.log(messages)
 
    const router = useRouter();
 
+
+   if (user){
     return(
     <>
     <Container sx={{justifyContent: 'center'}}>
@@ -68,7 +88,7 @@ const Messages = () => {
         keys={["field_name", "field_email", "field_subject", "body"]}
       /> 
     </>
-    )
+    )}
 }
 
 export default Messages
