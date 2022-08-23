@@ -45,6 +45,8 @@ export const IntroWrapper = () => {
             borderLeft: 0,
             borderRight: 0,
             borderTop: 0,
+            diplay: 'flex',
+            justifyContent: "space-between"
           }}
         >
           <Grid
@@ -104,9 +106,7 @@ export const IntroWrapper = () => {
             </Grid>
           </Grid>
 
-          <Grid item xs={3} sm={5} md={6.5} lg={7}>
-            {" "}
-          </Grid>
+          
 
           <Grid
             item
@@ -122,9 +122,9 @@ export const IntroWrapper = () => {
                 fontSize: 20,
               }}
             >
-              <Link onClick={scroll} underline="none" color="black">
+              <Button onClick={scroll} sx={{color: 'black', }}>
                 Contact
-              </Link>
+              </Button>
             </Typography>
           </Grid>
         </Grid>
