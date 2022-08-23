@@ -1,8 +1,7 @@
 import { Box, Button } from "@mui/material";
 import { Container } from "@mui/system";
 import axios from "axios";
-import Link from "../src/Link";
-import { FC, useState, Dispatch, SetStateAction } from "react";
+import { FC, Dispatch, SetStateAction } from "react";
 
 
 interface LoggedInProps{

@@ -1,8 +1,6 @@
 import Typography from "@mui/material/Typography";
 import { Box, Button, Container } from "@mui/material";
 import Grid from "@mui/material/Grid";
-import Link from "@mui/material/Link";
-import { useState } from "react";
 
 
 export const IntroWrapper = () => {

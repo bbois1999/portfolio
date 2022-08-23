@@ -1,4 +1,3 @@
-import Typography from '@mui/material/Typography';
 import { Box, Container } from '@mui/material';
 import Grid  from '@mui/material/Grid';
 import Link from '@mui/material/Link';

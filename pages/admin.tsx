@@ -1,9 +1,8 @@
-import { Alert, Box, Container, LinearProgress, Snackbar } from "@mui/material";
-import Grid from "@mui/material/Grid";
+import { Alert, Box, Container, LinearProgress } from "@mui/material";
 import TextField from "@mui/material/TextField";
 import LoadingButton from "@mui/material/Button";
 import SendIcon from "@mui/icons-material/Send";
-import { useState, useEffect, FC } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import LoggedIn from "./loggin-in";
 

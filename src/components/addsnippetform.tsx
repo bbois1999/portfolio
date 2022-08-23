@@ -1,7 +1,7 @@
 import { Button, Container, TextField } from "@mui/material";
 import { Box } from "@mui/system";
 import axios from "axios";
-import { MouseEvent, useState } from "react";
+import { useState } from "react";
 
 const AddSnippet = () => {
   const [title, setTitle] = useState("");
