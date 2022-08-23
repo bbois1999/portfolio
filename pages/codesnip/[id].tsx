@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import axios from "axios";
-import { fallback } from "google-gax/build/src/fallback";
 import { Box } from "@mui/system";
 import { Typography } from "@mui/material";
 
