@@ -5,7 +5,7 @@
   "private": true,
   
   "scripts": {
-    "dev": "next -p 80",
+    "dev": "next -p 3000",
     "build": "next build",
     "start": "node app.js",
     "lint": "next lint",
