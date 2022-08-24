@@ -31,9 +31,9 @@ const LoggedIn:FC<LoggedInProps> = ({setLoggedIn}) => {
       <Box sx={{textAlign: "center"}}>
       <Box sx={{fontSize: 50, marginTop: 20}}>Welcome, Brendan!</Box>
       <h2>Which Page?</h2>
-      <Box><Button variant="outlined" sx={{margin: 1}} href="http://brendanbois.com:3000">Main Portfolio</Button></Box>
-      <Box><Button variant="outlined" sx={{margin: 1}} href="http://brendanbois.com:3000/code-snippets">Code Snippets</Button></Box>
-      <Box><Button variant="outlined" sx={{margin: 1}} href="http://brendanbois.com:3000/messages">Messages</Button></Box>
+      <Box><Button variant="outlined" sx={{margin: 1}} href="http://brendanbois.com">Main Portfolio</Button></Box>
+      <Box><Button variant="outlined" sx={{margin: 1}} href="http://brendanbois.com/code-snippets">Code Snippets</Button></Box>
+      <Box><Button variant="outlined" sx={{margin: 1}} href="http://brendanbois.com/messages">Messages</Button></Box>
 
       <Button sx={{margin: 1}} onClick={handleSubmit}>Log out</Button>
       </Box>

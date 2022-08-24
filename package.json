@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "next -p 3000",
     "build": "next build",
-    "start": "node app.js",
+    "start": "next start",
     "lint": "next lint",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
   },
@@ -45,6 +45,6 @@
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "18.x.x"
+    "node": "16.x.x"
   }
 }
