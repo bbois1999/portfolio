@@ -60,7 +60,7 @@ const MyProjects = () => {
         </Box>
         <Box maxWidth={{md: '30%'}}>
             <Card sx={{boxShadow: '-1px 5px 5px 5px lightgray'}}>
-                <CardMedia src="/assets/images/drupal-pic.PNG" component="img" sx={{height: 200}}/>
+                <CardMedia src="/assets/images/linkedinarticle.PNG" component="img" sx={{height: 200}}/>
                 <CardContent>
                 <Box sx={{fontFamily: 'Russo One, sans-serif',
                     fontSize: 20, marginTop: 1, textAlign: 'left'}}>DRUPAL, DOCKER, JSONAPI</Box>
@@ -74,7 +74,7 @@ const MyProjects = () => {
                 }}>Here's a guide on how to use Drupal, Docker, and json_api as a back end to your own application!</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button  size='large'>Take a Look!</Button>
+                    <Button href="https://www.linkedin.com/pulse/drupal-docker-jsonapi-tutorial-brendan-bois"  size='large'>Take a Look!</Button>
                 </CardActions>
             </Card>
         </Box>
